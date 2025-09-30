@@ -1,69 +1,72 @@
-Guía de Requerimientos - Sistema de Gestión para Gimnasio (Base de Datos NoSQL) 
+# Guía de Requerimientos - Sistema de Gestión para Gimnasio (Base de Datos NoSQL)
 
-##1. Descripción del Cliente y Problema Principal 
+# 1. Descripción del Cliente y Problema Principal
 
-Cliente: Gimnasio que enfrenta problemas de gestión operativa Problema Principal: Sistema ineficiente que genera: 
+Cliente: Gimnasio que enfrenta problemas de gestión operativa
+Problema Principal: Sistema ineficiente que genera:
 
-Mala gestión de usuarios y membresías 
+* Mala gestión de usuarios y membresías
+* Problemas con control de horarios y aforo
+* Poca administración y seguimiento de ingresos
+* Falta de control en el acceso al establecimiento
 
-Problemas con control de horarios y aforo 
+---
 
-Poca administración y seguimiento de ingresos 
+# 2. Tipos de Usuarios y Perfiles con Permisos
 
-Falta de control en el acceso al establecimiento 
-##2. Tipos de Usuarios y Perfiles con Permisos 
+## Administrador (Dueño)
 
-#Administrador (Dueño) 
+**Permisos**:
 
-#Permisos: 
+* Gestión completa de usuarios (crear, editar, eliminar)
+* Administración de membresías y planes
+* Gestión de trabajadores
+* Reportes y estadísticas
+* Configuración del sistema
+* Control de horarios y aforo
 
-Gestión completa de usuarios (crear, editar, eliminar) 
+## Trabajadores (Staff)
 
-Administración de membresías y planes 
+**Permisos**:
 
-Gestión de trabajadores 
+* Registrar nuevos usuarios
+* Verificar estado de membresías
+* Asistir a clientes en el gimnasio
+* Consultar horarios y disponibilidad
+* Reportar incidencias
 
-Reportes y estadísticas 
+## Clientes
 
-Configuración del sistema 
+**Sub-roles**:
 
-Control de horarios y aforo 
+* Estudiantes
+* Profesores
 
-#Trabajadores (Staff) 
+**Permisos**:
 
-#Permisos: 
+* Registrarse en el sistema
+* Agendar y des agendar horarios
+* Ver su historial de ingresos
+* Gestionar su perfil
+* Eliminar su cuenta
+* Ver estado de su membresía
 
-Registrar nuevos usuarios 
+---
 
-Verificar estado de membresías 
+# 3. Definición del MVP (Minimum Viable Product)
 
-Asistir a clientes en el gimnasio 
+## MVP - Versión 1.0 (Incluye)
 
-Consultar horarios y disponibilidad 
+### Funcionalidades Core:
 
-Reportar incidencias 
+* **Registro de usuarios** con datos básicos (actualizable con huella digital).
+* Sistema de **autenticación por huella digital** en pórtico.
+* **Gestión de membresías** (estados: activa, expirada, suspendida).
+* **Agendamiento básico** de horarios por piso.
+* **Control de acceso** basado en membresía activa.
+* **Bloqueo/permiso de acceso** desde aplicación.
 
-#Clientes 
+### Características Técnicas:
 
-Sub-roles: 
-
-Estudiantes 
-
-Profesores 
-
-##Permisos: 
-
-Registrarse en el sistema 
-
-Agendar y des agendar horarios 
-
-Ver su historial de ingresos 
-
-Gestionar su perfil 
-
-Eliminar su cuenta 
-
-Ver estado de su membresía 
-
- 
- 
+* Base de datos **NoSQL (MongoDB)**.
+* **Aplicación web** para administración.
