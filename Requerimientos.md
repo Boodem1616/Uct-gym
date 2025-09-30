@@ -92,3 +92,6 @@ Problema Principal: Sistema ineficiente que genera:
 * **Registro de ingresos/salidas**
 * **Agendamiento de horario**
 
+### Media Prioridad
+* **Dashboard administrativo**
+* **Control básico de acceso**
