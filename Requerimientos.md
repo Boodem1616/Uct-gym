@@ -95,3 +95,7 @@ Problema Principal: Sistema ineficiente que genera:
 ### Media Prioridad
 * **Dashboard administrativo**
 * **Control básico de acceso**
+
+### Baja Prioridad
+* **Reportes avanzados**
+* **Integraciones adicionales**
