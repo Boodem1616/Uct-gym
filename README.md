@@ -1,5 +1,6 @@
 # Widox-Gym
 Integrantes:
 Cristobal Escobar
-Giso party
+Guido Bardi
 Vicente Saavedra
+Flores Floreal
