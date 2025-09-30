@@ -79,3 +79,11 @@ Problema Principal: Sistema ineficiente que genera:
 * **Reportes avanzados y analytics** (métricas de uso, ocupación, ingresos).
 * Sistema de **reserva de equipos** específicos.
 * **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
+#Versión 3.0: 
+
+## Sistema de logros y gamificación 
+* **Chat interno con entrenadores** 
+* **Control de progreso físico**
+---
+
+
