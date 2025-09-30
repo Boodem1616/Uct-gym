@@ -70,3 +70,12 @@ Problema Principal: Sistema ineficiente que genera:
 
 * Base de datos **NoSQL (MongoDB)**.
 * **Aplicación web** para administración.
+
+# 4. Futuras Versiones (Excluye del MVP)
+
+## Versión 2.0:
+
+* **Notificaciones push y recordatorios**.
+* **Reportes avanzados y analytics** (métricas de uso, ocupación, ingresos).
+* Sistema de **reserva de equipos** específicos.
+* **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
