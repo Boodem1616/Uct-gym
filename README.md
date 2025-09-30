@@ -15,8 +15,4 @@ Recomendaciones de ejercicios
 Generación de rutinas según objetivo (bajar de peso, ganar músculo, tonificar, etc).
  Sugerencias por nivel (principiante, intermedio, avanzado).
 
-Tecnologías utilizadas
 
- Lenguaje: (.)
- Framework: ()
- Base de datos: ()
