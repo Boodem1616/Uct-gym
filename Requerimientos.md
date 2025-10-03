@@ -71,21 +71,12 @@ Problema Principal: Sistema ineficiente que genera:
 * Base de datos **NoSQL (MongoDB)**.
 * **Aplicación web** para administración.
 
-# 4. Futuras Versiones (Excluye del MVP)
+# 4. Datos que se necesitan Guardar 
 
-## Versión 2.0:
+# 5. Reglas de negocio
 
-* **Notificaciones push y recordatorios**.
-* **Reportes avanzados y analytics** (métricas de uso, ocupación, ingresos).
-* Sistema de **reserva de equipos** específicos.
-* **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
-# Versión 3.0: 
+# 6.  Prioridades de Desarrollo
 
-## Sistema de logros y gamificación 
-* **Chat interno con entrenadores** 
-* **Control de progreso físico**
----
-## Prioridades de Desarrollo
 ### Alta Prioridad
 * **Sistema de autentificación por huella**
 * **Gestion de estado de membresía**
@@ -99,3 +90,33 @@ Problema Principal: Sistema ineficiente que genera:
 ### Baja Prioridad
 * **Reportes avanzados**
 * **Integraciones adicionales**
+
+# 7. Flujos Principales
+
+# 8. Requisitos no funcionales 
+
+# 9. Plazos establecidos 
+
+# 10. Alcanze y Presupuesto
+
+# 11. Propuesta y Forma de Trabajo
+
+# 12. 
+
+# 13. Soporte y Mantenimiento
+
+# 14. Tiempos de Reuniones y Proximos pasos 
+
+# . Futuras Versiones (Excluye del MVP)
+
+## Versión 2.0:
+
+* **Notificaciones push y recordatorios**.
+* **Reportes avanzados y analytics** (métricas de uso, ocupación, ingresos).
+* Sistema de **reserva de equipos** específicos.
+* **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
+# Versión 3.0: 
+
+## Sistema de logros y gamificación 
+* **Chat interno con entrenadores** 
+* **Control de progreso físico**
