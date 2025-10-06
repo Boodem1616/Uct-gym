@@ -71,10 +71,15 @@ Problema Principal: Sistema ineficiente que genera:
 * Base de datos **NoSQL (MongoDB)**.
 * **Aplicación web** para administración.
 
-# 4. Datos que se necesitan Guardar 
+# 4. Datos que se necesitan Guardar
+* Datos de clientes  
+* Membresia
+* Hora agendada
+* Entrada y salida por huella   
 
 # 5. Reglas de negocio
-
+* El desajendamiento de hora actualizara automaticamente el stock de horas disponibles
+*   
 # 6.  Prioridades de Desarrollo
 
 ### Alta Prioridad
@@ -92,20 +97,24 @@ Problema Principal: Sistema ineficiente que genera:
 * **Integraciones adicionales**
 
 # 7. Flujos Principales
-
+* 
 # 8. Requisitos no funcionales 
-
+* Seguridad de los datos de los usuarios 
 # 9. Plazos establecidos 
-
+* Entrega de requisitos 21/10
+* Primer prototipo ?/11
+* Entre de mvp funcional ?/12 
 # 10. Alcanze y Presupuesto
-
+* Municipalidades de comunas/Gimnacios 
 # 11. Propuesta y Forma de Trabajo
 
 # 12. 
 
 # 13. Soporte y Mantenimiento
+* Se dara 3 meses de soporte despues de la entrega del proyecto 
 
-# 14. Tiempos de Reuniones y Proximos pasos 
+# 14. Tiempos de Reuniones y Proximos pasos
+* Reuniones cada  semanas para ver el avanze del proyecto   
 
 # . Futuras Versiones (Excluye del MVP)
 
@@ -115,6 +124,7 @@ Problema Principal: Sistema ineficiente que genera:
 * **Reportes avanzados y analytics** (métricas de uso, ocupación, ingresos).
 * Sistema de **reserva de equipos** específicos.
 * **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
+
 # Versión 3.0: 
 
 ## Sistema de logros y gamificación 
