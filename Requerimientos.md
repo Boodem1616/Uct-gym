@@ -29,7 +29,6 @@ Problema Principal: Sistema ineficiente que genera:
 
 **Permisos**:
 
-* Registrar nuevos usuarios
 * Verificar estado de membresías
 * Asistir a clientes en el gimnasio
 * Consultar horarios y disponibilidad
@@ -97,7 +96,35 @@ Problema Principal: Sistema ineficiente que genera:
 * **Integraciones adicionales**
 
 # 7. Flujos Principales
-* 
+* 1.Flujo de Autentificacion 
+* Registro de Usuario:
+
+    1. El usuario presiona "Registrarse"
+    2. Ingresa Datos (Nombre, rut, email, contraseña)
+    3. Acepta términos y condiciones
+    4. Acceder a la pantalla principal
+* Inicio de Sesión (Login):
+
+    1. El usuario accede a la pantalla de login.
+    2. Ingresa sus credenciales (email y contraseña).
+    3. Presiona "Iniciar Sesión".
+    4. Si es correcto, accede a la pantalla principal.
+    5. Flujo Alternativo: Si las credenciales son incorrectas, se muestra un mensaje de error.
+* 2.Flujo de Gestión de agendas
+*   Reserva de gimnasio:
+    1. El usuario navega a la seleccion de "Agendar"
+    2. Selecciona los dias y horas disponibles
+    3. Confirma Reserva
+    4. Se le agrega en la pantalla principal
+*   Cancelacion de reserva:
+    1. El usuario accede a la pantalla principal
+    2. Selecciona la reserva que desea cancelar 
+    3. Confirma la cancelacion
+    4. La Reserva se libera y el usuario recibe una notificacion
+* 3.Flujo de Gestion de Membresía
+*   Informacion membresia:
+    1. El usuario accede a la seccion de "Membresia"
+    2. Visualiza el estado de su membresia
 # 8. Requisitos no funcionales 
 * Seguridad de los datos de los usuarios 
 # 9. Plazos establecidos 
@@ -108,15 +135,13 @@ Problema Principal: Sistema ineficiente que genera:
 * Municipalidades de comunas/Gimnacios 
 # 11. Propuesta y Forma de Trabajo
 
-# 12. 
-
-# 13. Soporte y Mantenimiento
+# 12. Soporte y Mantenimiento
 * Se dara 3 meses de soporte despues de la entrega del proyecto 
 
-# 14. Tiempos de Reuniones y Proximos pasos
-* Reuniones cada  semanas para ver el avanze del proyecto   
+# 13. Tiempos de Reuniones y Proximos pasos
+* Reuniones cada semana para ver el avanze del proyecto   
 
-# . Futuras Versiones (Excluye del MVP)
+# Futuras Versiones (Excluye del MVP)
 
 ## Versión 2.0:
 
@@ -125,8 +150,8 @@ Problema Principal: Sistema ineficiente que genera:
 * Sistema de **reserva de equipos** específicos.
 * **Planes de entrenamiento personalizados** (asignados por el staff/entrenador).
 
-# Versión 3.0: 
+## Versión 3.0: 
 
-## Sistema de logros y gamificación 
+### Sistema de logros y gamificación 
 * **Chat interno con entrenadores** 
 * **Control de progreso físico**
