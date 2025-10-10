@@ -19,36 +19,30 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n�
 
 **Permisos**:
 
-* Gestión completa de usuarios (crear, editar, eliminar)
+* Gestión completa de usuarios (
+    crear= Nombre, Usuario, Contraseña, Rut, 
+    editar= Usuario, contraseña, 
+    eliminar= Usuario)
 * Administración de membresías y planes
 * Gestión de trabajadores
-* Reportes y estadísticas
-* Configuración del sistema
-* Control de horarios y aforo
+* Estadisticas de la cantidad de usuarios por hora y dia 
+* Configuración del sistema = Control de horarios, aforo 
 
 ## Trabajadores (Staff)
 
 **Permisos**:
 
 * Verificar estado de membresías
-* Asistir a clientes en el gimnasio
-* Consultar horarios y disponibilidad
-* Reportar incidencias
+* Gestionar membresia clientes en el gimnasio
+* Ver cpos de horarios y disponibilidad
 
 ## Clientes
-
-**Sub-roles**:
-
-* Estudiantes
-* Profesores
 
 **Permisos**:
 
 * Registrarse en el sistema
 * Agendar y des agendar horarios
 * Ver su historial de ingresos
-* Gestionar su perfil
-* Eliminar su cuenta
 * Ver estado de su membresía
 
 ---
@@ -57,32 +51,40 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n�
 
 ## MVP - Versión 1.0 (Incluye)
 
-* Registro de usuarios con datos básicos
-* Gestión de membresías (activa, expirada, suspendida).
-* Agendamiento básico de horarios por piso.
-* Control de acceso basado en membresía activa.
+### Funcionalidades Core:
+
+* **Registro de usuarios** con datos básicos .
+* **Gestión de membresías** (estados: activa, expirada, suspendida).
+* **Agendamiento básico** de horarios por piso.
+* **Bloqueo/permiso de acceso** desde aplicación.
+* **Registro de entrada y salida** 
 
 ### Características Técnicas:
 
-* Base de datos **NoSQL (MongoDB)**.
+* Base de datos **MongoDB (Nosql)**.
 * **Aplicación web** para administración.
+* Reddis(Cache) para mayor velocidad 
 
 # 4. Datos que se necesitan Guardar
-* Datos de clientes  
-* Membresia
+* Datos de clientes(Nombre, Usuario, Contraseña, Rut)  
+* Membresia (activa, expirada, suspendida)
 * Hora agendada
-* Entrada y salida por huella   
+* Registro de entrada y salida  
 
 # 5. Reglas de negocio
-* El desajendamiento de hora actualizara automaticamente el stock de horas disponibles
+* El desajendamiento de hora actualizara automaticamente el stock de horas disponibles.
 * El agendamiento de hora solo se puede hacer con una hora de anticipación.
+* El agendamiento de hora solo se puede utilizar si tiene una cuenta con membresia activa.
+* Si ya paso la hora especifica o esta en la hora justa, no se puede des-agendar.
+* No se podra agendar horas con anticipacion de mas de 2 meses 
+
 # 6.  Prioridades de Desarrollo
 
 ### Alta Prioridad
-* **Sistema de autentificación por huella**
 * **Gestion de estado de membresía**
 * **Registro de ingresos/salidas**
 * **Agendamiento de horario**
+* **Registro de usuarios**
 
 ### Media Prioridad
 * **Dashboard administrativo**
@@ -101,7 +103,6 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n�
     3. Acepta términos y condiciones
     4. Acceder a la pantalla principal
 * Inicio de Sesión (Login):
-
     1. El usuario accede a la pantalla de login.
     2. Ingresa sus credenciales (email y contraseña).
     3. Presiona "Iniciar Sesión".
@@ -123,11 +124,14 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n�
     1. El usuario accede a la seccion de "Membresia"
     2. Visualiza el estado de su membresia
 # 8. Requisitos no funcionales 
-* Seguridad de los datos de los usuarios 
+* Seguridad de los datos de los usuarios
+* La aplicacion funcionara en cualquier dispositivo 
+  que tenga accesso a un navegador con internet
+* El usuario podra agendara hora y la solicitud se procesara en menos de 5 segundos   
 # 9. Plazos establecidos 
 * Entrega de requisitos 21/10
 * Primer prototipo ?/11
-* Entre de mvp funcional ?/12 
+* Entre de mvp funcional ?/12  
 # 10. Alcanze y Presupuesto
 * El sistema busca automatizar la gestión de un gimnasio, centralizando el control de usuarios, membresías, horarios y accesos mediante una base de datos NoSQL (MongoDB).
 La primera versión (MVP) incluirá los módulos esenciales:
