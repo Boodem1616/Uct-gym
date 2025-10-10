@@ -79,7 +79,7 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n√
 
 # 5. Reglas de negocio
 * El desajendamiento de hora actualizara automaticamente el stock de horas disponibles
-*   
+* El agendamiento de hora solo se puede hacer con una hora de anticipaci√≥n.
 # 6.  Prioridades de Desarrollo
 
 ### Alta Prioridad
