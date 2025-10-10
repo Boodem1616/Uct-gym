@@ -2,8 +2,9 @@
 
 # 1. Descripción del Cliente y Problema Principal
 
-Cliente: Gimnasio que enfrenta problemas de gestión operativa
-Problema Principal: Sistema ineficiente que genera:
+Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su número de miembros, lo que ha llevado a que sus procesos manuales y su sistema de gestión actual sean insuficientes. La falta de una herramienta centralizada y eficiente está generando problemas con los sistemas, afectando la experiencia del cliente, la eficiencia del personal y la rentabilidad del negocio
+
+## Problema Principal: Sistema ineficiente que genera:
 
 * Mala gestión de usuarios y membresías
 * Problemas con control de horarios y aforo
