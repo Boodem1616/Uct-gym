@@ -57,14 +57,10 @@ Contexto General: El gimnasio ha experimentado un crecimiento sostenido en su n�
 
 ## MVP - Versión 1.0 (Incluye)
 
-### Funcionalidades Core:
-
-* **Registro de usuarios** con datos básicos (actualizable con huella digital).
-* Sistema de **autenticación por huella digital** en pórtico.
-* **Gestión de membresías** (estados: activa, expirada, suspendida).
-* **Agendamiento básico** de horarios por piso.
-* **Control de acceso** basado en membresía activa.
-* **Bloqueo/permiso de acceso** desde aplicación.
+* Registro de usuarios con datos básicos
+* Gestión de membresías (activa, expirada, suspendida).
+* Agendamiento básico de horarios por piso.
+* Control de acceso basado en membresía activa.
 
 ### Características Técnicas:
 
